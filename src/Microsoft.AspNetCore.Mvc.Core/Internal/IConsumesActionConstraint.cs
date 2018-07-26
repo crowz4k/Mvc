@@ -13,12 +13,4 @@ namespace Microsoft.AspNetCore.Mvc.Internal
     public interface IConsumesActionConstraint : IActionConstraint
     {
     }
-
-    /// <summary>
-    /// An <see cref="IEndpointConstraint"/> constraint that identifies a type which can be used to select an action
-    /// based on incoming request.
-    /// </summary>
-    public interface IConsumesEndpointConstraint : IEndpointConstraint
-    {
-    }
 }
